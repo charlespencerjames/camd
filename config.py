@@ -56,7 +56,7 @@ class Config:
         self.model_indices = [self.l1, self.l3, self.l8, self.f1, self.f3, self.f7, self.f0, self.o7, self.m7]
 
         # Model loading configuration
-        self.model_id = self.model_ids[self.model_indices.index(True)] #'MBZUAI/LaMini-GPT-124M' #self.model_ids[self.model_indices.index(True)]
+        self.model_id = self.model_ids[self.model_indices.index(True)]
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         # Meta parameters
@@ -88,5 +88,5 @@ class Config:
         self.second_path = os.path.join(self.dir_path, "scores.h5")
 
         # Paths to MMLU csv files
-        self.folder_path_val = '/home/ubuntu/venv/mmlu/val' #'C:/Users/charl/Documents/MMLU/data/val' #
-        self.folder_path_test = '/home/ubuntu/venv/mmlu/test' # 'C:/Users/charl/Documents/MMLU/data/test'
+        self.folder_path_val = '/home/ubuntu/venv/mmlu/val' # Default assuming linux OS
+        self.folder_path_test = '/home/ubuntu/venv/mmlu/test' # Default assuming linux OS
