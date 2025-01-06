@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Correlation-Accuracy Metric Design (CAMD)
+=======
+# camd (Correlation-Accuracy Metric Design; CAMD)
+>>>>>>> 7df88e2a3c697900baff6b1901d617bd84533682
 
 A Python module for configuring, running, analyzing, and visualizing results 
 based on metrics calculated from language model scores.
@@ -18,4 +22,8 @@ based on metrics calculated from language model scores.
    cd camd
 
 ## License
+<<<<<<< HEAD
 This project is licensed under the [MIT License](LICENSE).
+=======
+This project is licensed under the [MIT License](LICENSE).
+>>>>>>> 7df88e2a3c697900baff6b1901d617bd84533682
