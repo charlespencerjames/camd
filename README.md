@@ -1,4 +1,4 @@
-# Correlation-Accuracy Metric Design (CAMD)
+# Confidence-Accuracy Metric Design (CAMD)
 
 A Python module for configuring, running, analyzing, and visualizing results 
 based on metrics calculated from language model scores.
