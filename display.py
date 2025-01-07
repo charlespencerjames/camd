@@ -337,7 +337,7 @@ class DataDisplayer:
             x_3 = _array_range_adjuster(x_3)
         
         # Randomly sample indices
-        rng = np.random.default_rng(seed=77) # seed=84 (else) falcon3 10b # seed=393 (logits) falcon3 10b # seed=3 (SxL) llama 8b # seed=77 llama 8b (SNsr)
+        rng = np.random.default_rng(seed=77) 
         sample_indices = rng.choice(np.arange(len(binary)), size=idx_size, replace=False)  # Randomly sample indices
         sample_indices.sort()
 
